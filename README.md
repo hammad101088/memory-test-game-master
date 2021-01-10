@@ -1,13 +1,18 @@
-# Memory Game Project
+# Memory Test Game Project
 
 
 ##Summary
 
-Memory Game written in javascript
+Memory Game written in javascript to test your memory
 
-how to play:
- choose cards and flip it. if you flip a different cards it flipped back again and one move scored . if you finish the game with 1:9 moves you get 3 stars. 10:14 moves you get 2 stars . you  can reset the game any time by reset button.
+##how to play:
+ - choose two cards and flip them.
+ - if they were different, they flipped back again untill you flip the right cards.
+ - if you finish the game with 1:9 moves you get 3 stars and 10:14 moves you get 2 stars
+ - you  can reset the game any time by reset button.
  
-##About
+ 
+##Team members
 
-This little game is intended to have fun, train your memory skills.
+- mo'men elsayed elshobaky.
+- mohamed tarek mohamed hammad.
