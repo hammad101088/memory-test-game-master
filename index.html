@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Test Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center; width: 80%; margin: 0 auto">
+        <div class="nav">
+            <h1>Test Your Memory..</h1>
+            <div class="timer"><p class="min">00</p><b>:</b><p class="sec">00</p></div>
+            <ul class="stars">
+                <h5>Stars</h5>
+                <li><i class="fa fa-star" id="s1"></i></li>
+                <li><i class="fa fa-star" id="s2"></i></li>
+                <li><i class="fa fa-star" id="s3"></i></li>
+            </ul>
+            <h5 class="move">3 Moves</h5>
+            
+            
+            <button onclick="new_game()"><i class="fa fa-repeat"></i></button>
+        </div>
+        
+        <div class="board" id="board">
+        </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/game.js"></script>
+    
+</body>
+
+</html> 
