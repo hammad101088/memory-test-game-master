@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<h1>Welcome<h1>
+<body>
+  <p>Choose Difficulty</p>
+  <br>
+  <button id="Easy">Easy</button><br>
+  <button id="Medium">Medium</button><br>
+  <button id="Hard">Hard</button>
+</body>
+<script>
+ var easy = document.getElementById("Easy");
+ var med = document.getElementById("Medium");
+  var hard = document.getElementById("Hard");
+ easy.addEventListener('click',()=>{
+   window.location ='game.html?diff=easy';
+ })
+ med.addEventListener('click',()=>{
+   window.location ='game.html?diff=med';
+ })
+ hard.addEventListener('click',()=>{
+   window.location ='game.html?diff=hard';
+ })
+</script>
+</html>
